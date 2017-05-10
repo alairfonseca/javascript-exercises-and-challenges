@@ -2,10 +2,30 @@
 <html>
   <head>
     <meta charset="utf-8">
-    <title></title>
+    <title>Write a JavaScript program to calculate multiplication and division of two numbers</title>
   </head>
   <body>
+    <div class="row">
+        <label for="primeiroNumero">primeiro numero: </label>
+        <input type="number" id="primeiroNumero" />
+    </div>
 
+    <div class="row">
+        <label for="segundoNumero">segundo numero: </label>
+        <input type="number" id="segundoNumero" />
+    </div>
+
+    <div class="row">
+      <button type="button" id="btnMult" onclick="multiplica
+        ('primeiroNumero', 'segundoNumero')">multiplicar</button>
+
+      <button type="button" id="btnDiv" onclick="divide
+        ('primeiroNumero', 'segundoNumero')">dividir</button>
+    </div>
+
+    <div class="row">
+      <span id="resultado"></span>
+    </div>
   </body>
   <script type="text/javascript" src="index.js"></script>
 </html>
