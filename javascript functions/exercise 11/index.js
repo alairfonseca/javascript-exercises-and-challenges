@@ -1,9 +1,8 @@
 
 
-function desenhaMatriz(matriz) {
+function desenhaMatriz(id) {
 
-  let i;
-  let j;
+  let matriz = document.getElementById(id).value;
 
   for (i=0; i < matriz; i++) {
     for (j=0; j < matriz; j++) {
@@ -16,7 +15,3 @@ function desenhaMatriz(matriz) {
    }
 
  }
-
-function gatilho() {
-  return desenhaMatriz(5);
-}
